@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const client = Discord.Client();
+const client = new Discord.Client();
 
 client.on('ready', async() => {
 var server = "486308710428311583"; // ايدي السررفر
