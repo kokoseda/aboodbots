@@ -1,5 +1,5 @@
 const Discord = reqiure('discord.js');
-const client = Discord.Client();
+const client = new Discord.Client();
 
 
 client.on('guildMemberAdd', member=> {
